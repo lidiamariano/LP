@@ -1,0 +1,30 @@
+body{
+    font: normal 16pt Arial;
+}
+img{
+    margin-left: 50px;
+}
+
+.navbar {
+    width: 215vh;
+    height: 7px;
+    margin-top: 5px;
+    background-color: rgb(38, 7, 172); 
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 310px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(52, 48, 48);
+    
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
