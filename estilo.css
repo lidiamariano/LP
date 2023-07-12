@@ -1,5 +1,14 @@
 body {
     font: normal 16pt Arial;
+    background-image: url('bg_cadastro_completo.jpg');
+    /* Substitua 'sua_imagem.jpg' pelo caminho até a sua imagem */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: left top;
+    min-height: 1500px;
+    min-width: 1000px;
+
 }
 
 img {
@@ -15,9 +24,10 @@ img {
 
 .cards {
     display: grid;
-    grid-template-columns: 7fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     grid-auto-rows: 250px;
 }
+
 section {
     background: white;
     border-radius: 10px;
@@ -27,19 +37,24 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px rgb(52, 48, 48);
 }
-.jogo1{
+
+.jogo1 {
     margin-right: 60px;
 }
-.jogo2{
+
+.jogo2 {
+    margin-left: 15px;
+}
+
+.jogo3 {
     margin-right: 60px;
 }
-.jogo3{
-    margin-right: 60px;
+
+.jogo4 {
+    margin-left: 15px;
 }
-.jogo4{
-    margin-right: 60px;
-}
-.jogo5{
+
+.jogo5 {
     margin-right: 60px;
 }
 
