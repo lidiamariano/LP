@@ -31,14 +31,24 @@ p{
     grid-auto-rows: 250px;
 }
 
+/* @media only screen and (max-width:1000px){
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+}  */
+
+
 section {
     background: white;
+    border:1px solid #000000;
     border-radius: 10px;
     padding: 15px;
     width: 310px;
     height: 200px;
     margin: auto;
     box-shadow: 5px 5px 10px rgb(52, 48, 48);
+    overflow:hidden;
 }
 
 .jogo1 {
@@ -112,6 +122,8 @@ padding-left: 7%;
 
 .image-icon{
 margin-left: -10px;
+border-radius: 10px;
+border:1px solid #000000;
 }
 
 .buttonCard {
