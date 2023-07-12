@@ -1,7 +1,8 @@
-body{
+body {
     font: normal 16pt Arial;
 }
-img{
+
+img {
     margin-left: 50px;
 }
 
@@ -9,10 +10,15 @@ img{
     width: 215vh;
     height: 7px;
     margin-top: 5px;
-    background-color: rgb(38, 7, 172); 
+    background-color: rgb(38, 7, 172);
 }
 
-section{
+.cards {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-auto-rows: 250px;
+}
+section {
     background: white;
     border-radius: 10px;
     padding: 15px;
@@ -20,11 +26,25 @@ section{
     height: 200px;
     margin: auto;
     box-shadow: 5px 5px 10px rgb(52, 48, 48);
-    
 }
-footer{
+.jogo1{
+    margin-right: 60px;
+}
+.jogo2{
+    margin-right: 60px;
+}
+.jogo3{
+    margin-right: 60px;
+}
+.jogo4{
+    margin-right: 60px;
+}
+.jogo5{
+    margin-right: 60px;
+}
+
+footer {
     color: white;
     text-align: center;
     font-style: italic;
 }
-
