@@ -1,3 +1,10 @@
+
+header {
+    margin-top: 70px;
+    margin-left: 100px;
+    padding-right: 165px;
+}
+
 body {
     font: normal 16pt Arial;
     background-image: url('bg_cadastro_completo.jpg');
@@ -9,15 +16,23 @@ body {
     min-height: 1500px;
     min-width: 1000px;
 }
+
+footer{
+    font: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1{
     font-family: 'Paytone One', sans-serif;
     font-size: 25px;
     margin-left: 300px;
     color: red;
 }
+
 p{
     margin-left: 300px;
 }
+
 .navbar {
     width: 215vh;
     height: 7px;
