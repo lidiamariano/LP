@@ -90,6 +90,7 @@ footer {
 .containerCard {
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
 }
   
 .iconCard {
