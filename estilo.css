@@ -143,3 +143,8 @@ button:hover {background-color: #595959;}
 button:active {background-color: #ff0000;}
 
 p { font-size: 15px; }
+h6 {
+    margin-top: -15px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+  }
