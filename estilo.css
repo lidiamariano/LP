@@ -111,7 +111,12 @@ footer {
     max-height:25%;
     float: left;
 }
-  
+
+.iconCard2 {
+    margin-left: -20px;
+    float: right;
+}
+
 .textCard {
     margin-top: -30px;
     margin-bottom: -25px;
@@ -146,12 +151,14 @@ color: #ffffff;
 
 border: none;
 border-radius: 50px;
-padding: 6px 24px;
+padding: 7px 24px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 /* font-size: 16px; */
 margin: 4px 2px;
+margin-top: 10px;
+margin-bottom: -10px;
 }
 button:hover {background-color: #595959;}
 button:active {background-color: #ff0000;}
