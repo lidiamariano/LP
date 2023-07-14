@@ -1,9 +1,9 @@
-html *
+/*html *
 {
     
    font-family: 'Roboto' !important;
 }
-
+*/
 header {
     margin-top: 70px;
     margin-left: 100px;
@@ -11,15 +11,15 @@ header {
 }
 
 body {
-    font: normal 17pt Arial;
+    font-family: 'Roboto', sans-serif;
     background-image: url('bg_cadastro_completo.jpg');
-    /* Substitua 'sua_imagem.jpg' pelo caminho até a sua imagem */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     background-position: left top;
     min-height: 1500px;
     min-width: 1000px;
+    font-size: 22px;
 }
 
 footer{
@@ -162,3 +162,4 @@ h6 {
     font-family: Arial, sans-serif;
     font-weight: normal;
   }
+
