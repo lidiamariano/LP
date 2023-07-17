@@ -34,9 +34,11 @@ h1 {
     color: red;
 }
 
-p {
+.text-p {
     margin-left: 300px;
 }
+
+
 
 .navbar {
     width: 215vh;
@@ -88,11 +90,21 @@ footer {
     color: black;
     text-align: center;
     font-style: italic;
+    position: static;
+    width: 100%;
+    /* background-color: red; */
+    color: rgb(0, 0, 0);
+    /* position: fixed; */
+    width: 100%;
+    height: 2.5rem; 
+    padding-top: 90px;
+    margin-left: 100px;   
 }
 
 .btn_avalia {
     margin-left: 50vh;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: -100px;
     background-color: black;
     color: white;
     width: 300px;
@@ -176,6 +188,12 @@ h6 {
 .rating {
     unicode-bidi: bidi-override;
     direction: rtl;
+    margin-top: -40px;
+}
+
+.text-body{
+    margin-left: 100px;
+    padding-right: 165px;
 }
 
 .star {
@@ -193,7 +211,7 @@ h6 {
     font-family: 'Paytone One', sans-serif;
     font-size: 25px;
     color: red;
-    margin-right: 500px;
+    margin-top: 60px;
 }
 .avaliaDelegar{
     display: inline-block;
